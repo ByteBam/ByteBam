@@ -40,7 +40,7 @@
 
 1. 复刻（Fork）本项目
 2. 创建你的 Feature 分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的变更 (`git commit -a -s -m 'feat:Add some AmazingFeature'`)
+3. 提交你的变更 (`git commit -a -s -m 'Feature(issueId): Add some AmazingFeature'`)
 4. 推送到该分支 (`git push origin feature/AmazingFeature`)
 5. 创建一个拉取请求（Pull Request）
 
