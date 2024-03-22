@@ -21,6 +21,7 @@ What kind of change does this PR introduce?
 [ ] Chore：构建过程或辅助工具的变动
 [ ] CI: ci配置相关
 [ ] Build: 产物构建迁移/构建相关
+[ ] Revert: 代码回滚
 ```
 
 ## What is the current behavior?
