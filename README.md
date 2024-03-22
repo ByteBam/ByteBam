@@ -1,19 +1,11 @@
 # ByteBam
-文档目录——以列表的形式展示了目录索引，让人可以一眼找到自己需要内容
-项目介绍——这里可以详细介绍项目的背景与相关信息
-图形展示——通常是项目的截图、视频，让他人可以预览项目
-特色功能——以列表的形式列出项目的亮点，方便他人了解项目
-软件架构——这里一般写软件架构图或者目录结构图，方便用户深入理解项目
-使用方法——告诉他人怎么使用你的项目
 
 <div id="top"></div>
-
-<!-- 项目 LOGO -->
 
 <br />
 <div align="center">
   <a>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="static/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">🚀ByteBam</h3>
@@ -21,38 +13,23 @@
   <p align="center">
     ByteBam 为企业内部量身定制的一站式研发平台
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>浏览文档 »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">查看 Demo</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">浏览文档</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">反馈 Bug</a>
+    <a href="https://github.com/ByteBam/ByteBam/issues">反馈 Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">请求 Feature</a>
+    <a href="https://github.com/ByteBam/ByteBam/issues">请求 Feature</a>
   </p>
 </div>
-
-
-## 关于本项目
-
-
-<p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
-## 开始
-
 
 ## 路线图
 
 - [x] 添加更新日志
-- [x] 添加「返回顶部」链接
 - [ ] 添加额外的模板和示例
 - [ ] 添加「组件」文档，以便更容易复制和粘贴各个部分
 
 
-到 [open issues](https://github.com/othneildrew/Best-README-Template/issues) 页查看所有请求的功能 （以及已知的问题）。
-
-<p align="right">(<a href="#top">返回顶部</a>)</p>
+到 [open issues](https://github.com/ByteBam/ByteBam/issues) 页查看所有请求的功能 （以及已知的问题）。
 
 
 ## 贡献

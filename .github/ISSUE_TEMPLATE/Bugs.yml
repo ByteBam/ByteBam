@@ -1,0 +1,71 @@
+name: "\U0001F41B Bug Report"
+description: "If something isn't working as expected \U0001F914"
+labels: ["needs triage", "bug"]
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: "Current behavior"
+      description: "How the issue manifests?"
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: "Minimum reproduction code"
+      description: "An URL to some git repository or gist that reproduces this issue. [Wtf is a minimum reproduction?](https://jmcdo29.github.io/wtf-is-a-minimum-reproduction)"
+      placeholder: "https://github.com/..."
+
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce"
+      description: |
+        How the issue manifests?
+        You could leave this blank if you alread write this in your reproduction code/repo
+      placeholder: |
+        1. `maven package | install`
+        2. `java -jar target/my-app.jar:dev`
+        3. See error...
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: "Package version"
+      description: |
+        Which version of `dependency package` are you using?
+        **Tip**: Make sure that all of yours `dependency package` dependencies are in sync!
+      placeholder: "0.0.1"
+
+
+  - type: input
+    attributes:
+      label: "java version"
+      description: "Which version of Node.js are you using?"
+      placeholder: "11"
+
+  - type: checkboxes
+    attributes:
+      label: "In which operating systems have you tested?"
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+  - type: textarea
+    attributes:
+      label: "Other"
+      description: |
+        Anything else relevant? eg: Logs, OS version, IDE, package manager, etc.
+        **Tip:** You can attach images, recordings or log files by clicking this area to highlight it and then dragging files in
